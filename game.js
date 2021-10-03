@@ -14,7 +14,7 @@ function main(currentTime) {
         console.log(updatedSnakeSpeed);
         console.log(EXPANSION_RATE);
         if (confirm(`You lost. Your snake is ${snakeBody.length} segments long! Press ok to restart`)) {
-            window.location = '/snakeGame'
+            window.location.href = '/snakeGame'
         }
         return
     }
